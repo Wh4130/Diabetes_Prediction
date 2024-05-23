@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import gzip, pickle
 import sklearn
- 
+  
 st.set_page_config(layout="wide")
 st.write("""
 # Diabetes Prediction Machine Learning Project
