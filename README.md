@@ -1,7 +1,7 @@
 # Diabetes Prediction Machine Learning Project
 
 📌 See the slides for this ML project through:
-1. diabetes_prediction_slides.pdf in this repository
+1. ***diabetes_prediction_slides.pdf*** in this repository
 2. this link: 
 
 ### Streamlit Interactive Platform (Output) and my social media
@@ -26,11 +26,11 @@ Via the interactive user interface built on Streamlit, user could input their ag
 
 Basic classification machine learning prediction framework is adopted in this project. Detail information could be found in the following two files in this repository:
 
-- 1_machine_learning/eda_training_selection.ipynb
+- ***1_machine_learning/eda_training_selection.ipynb***
   
-- 1_machine_learning/final_model.ipynb
+- ***1_machine_learning/final_model.ipynb***
 
-- streamlit_code/myapp.py
+- ***streamlit_code/myapp.py***
 
 The work flow of this project is as follow:
 
