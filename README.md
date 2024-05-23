@@ -16,11 +16,19 @@ In light of this, I was inspired to establish a data analysis and machine learni
 
 Via the interactive user interface built on Streamlit, user could input their age, height, weight, and their basic health condition and the model would return the probability of diagnosed as diabetes. 
 
-link: https://diabetesdetection-2e2nvdfhxvzucsbd3kvrfw.streamlit.app/
+🔗 link: https://diabetesdetection-2e2nvdfhxvzucsbd3kvrfw.streamlit.app/
 
 ### Work Flow and Summary
 
-Basic classification machine learning prediction framework is adopted in this project. The work flow of this project is as follow:
+Basic classification machine learning prediction framework is adopted in this project. Detail information could be found in the following two files in this repository:
+
+- 1_machine_learning/eda_training_selection.ipynb
+  
+- 1_machine_learning/final_model.ipynb
+
+- streamlit_code/myapp.py
+
+The work flow of this project is as follow:
 
 - Data and required modules import
   
