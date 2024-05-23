@@ -4,15 +4,15 @@ import pandas as pd
 import gzip, pickle
 import sklearn
 
-import sklearn
-from sklearn.ensemble import RandomForestClassifier
-X = pd.read_csv("./1_machine_learning/cleaned_features.csv")
-y = pd.read_csv("./1_machine_learning/cleaned_target.csv")
+# import sklearn
+# from sklearn.ensemble import RandomForestClassifier
+# X = pd.read_csv("./1_machine_learning/cleaned_features.csv")
+# y = pd.read_csv("./1_machine_learning/cleaned_target.csv")
 
-X.drop(['Unnamed: 0', 'index'], axis = 1, inplace = True)
-y.drop(['Unnamed: 0', 'index'], axis = 1, inplace = True)
+# X.drop(['Unnamed: 0', 'index'], axis = 1, inplace = True)
+# y.drop(['Unnamed: 0', 'index'], axis = 1, inplace = True)
 
-clf = RandomForestClassifier(n_estimators = 250).fit(X, y);
+# clf = RandomForestClassifier(n_estimators = 250).fit(X, y);
   
 st.set_page_config(layout="wide")
 st.write("""
@@ -75,13 +75,9 @@ Your BMI is {bmi}
 
 
 # Load in model
-# with gzip.open("./1_machine_learning/GBDT_diabetes.pgz", "rb") as f:
-#     clf = pickle.load(f)
+with gzip.open("./1_machine_learning/model.pgz", "rb") as f:
+    clf = pickle.load(f)
 
-# @st.cache
-# def load_model(model_file):
-# 	loaded_model = joblib.load(open(os.path.join(model_file),"rb"))
-# 	return loaded_model
 
 # Prediction Function
 def predictProba(input):
