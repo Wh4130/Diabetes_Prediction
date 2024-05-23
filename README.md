@@ -1,8 +1,12 @@
 # Diabetes Prediction Machine Learning Project
 
+📌 See the slides for this ML project through:
+1. diabetes_prediction_slides.pdf in this repository
+2. this link: 
+
 ### Streamlit Interactive Platform (Output) and my social media
 
-📍 Test the probability of you having diabetes: https://diabetesdetection-2e2nvdfhxvzucsbd3kvrfw.streamlit.app/
+📍 Test the probability of having diabetes: https://diabetesdetection-2e2nvdfhxvzucsbd3kvrfw.streamlit.app/
 
 📍 Visit my Linked in: https://www.linkedin.com/in/chun-huang-lin-960552262
 
