@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np 
 import pandas as pd
-import gzip, pickle
+import gzip, pickle, joblib
 import sklearn
 #----------------------------
 # Header
@@ -77,9 +77,10 @@ Your BMI is {bmi}
 #----------------------------
 # Load in trained model
 #----------------------------
-with gzip.open("./1_machine_learning/model.pgz", "rb") as f:
-    clf = pickle.load(f)
+# with gzip.open("./1_machine_learning/model.pgz", "rb") as f:
+#     clf = pickle.load(f)
 
+clf = joblib.load('1_machine_learning/random_forest.pkl')
 #----------------------------
 # Define Prediction Function
 #----------------------------
