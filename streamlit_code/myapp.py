@@ -16,11 +16,6 @@ The application is build on ***Logistic Regression*** in sci-kit learn (sklearn)
          
 ‼️ Note: during the model selection process, four models, including **Logistic Regression, Random Forest, Gradient Boosting Decision Tree, and Neural Network** were candidates. At the phase of model validation, Gradient Boosting Decision Tree performs the best, therefore selected as the final model. However, scikit-learn GBDT seems not compatiable with Streamlit, so Logistic Regression version was built for this user interface. As a result, the prediction result might not be as good as expected. (For example, if we increase only the days of Physical Health illness, the probability would go down, which is counterintuitive.)
 
-📍 Visit my github for EDA and Model Training, and other projects: https://github.com/Wh4130
-         
-📍 Visit my Linked in: https://www.linkedin.com/in/chun-huang-lin-960552262
-         
-📍 Visit my instagram account for Japanese Education: @haruki_japanese_
 #### Please input your information to obtain the probability of having diabetes.
 """)
 
@@ -110,3 +105,11 @@ col3.write(f'''
 ### {output}
 ##### Probability of having Diabetes: {result}
          ''')
+
+st.write('''
+📍 Visit my github for EDA and Model Training, and other projects: https://github.com/Wh4130
+         
+📍 Visit my Linked in: https://www.linkedin.com/in/chun-huang-lin-960552262
+         
+📍 Visit my instagram account for Japanese Education: @haruki_japanese_
+''')
