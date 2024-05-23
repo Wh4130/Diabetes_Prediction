@@ -20,7 +20,9 @@ st.write("""
         
 This is an interactive application of pre-detecting diabetes based on your life-style and health condition. All input information would not be saved, so no need to worry about the privacy problem!
          
-The application is build on Gradient Boosting Classifier model in sci-kit learn (sklearn) package for machine learning, based on 69891 instances and 15 features as training data. Both the recall and precision test scores are 0.75.
+The application is build on Logistic Regression in sci-kit learn (sklearn) package for machine learning, based on 69891 instances and 15 features as training data. 
+         
+‼️ Note: during the model selection process, four models, including Logistic Regression, Random Forest, Gradient Boosting Decision Tree, and Neural Network were candidates. At the phase of model validation, Gradient Boosting Decision Tree performs the best, therefore selected as the final model. However, scikit-learn GBDT seems not compatiable with Streamlit, so Logistic Regression version was built for this user interface.
          
 #### Please input your information to obtain the probability of having diabetes.
 """)
