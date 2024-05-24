@@ -16,9 +16,7 @@ The application is build on ***Logistic Regression*** in sci-kit learn (sklearn)
          
 ‼️ Note: during the model selection process, four models, including **Logistic Regression, Random Forest, Gradient Boosting Decision Tree, and Neural Network** were candidates. At the phase of model validation, Gradient Boosting Decision Tree performs the best, therefore selected as the final model. However, scikit-learn GBDT seems not compatiable with Streamlit, so Logistic Regression version was built for this user interface. As a result, the prediction result might not be as good as expected. (For example, if we increase only the days of Physical Health illness, the probability would go down, which is counterintuitive.)
 """)
-
 st.divider()
-
 st.write("""
 #### Please input your information to obtain the probability of having diabetes.
          """)
