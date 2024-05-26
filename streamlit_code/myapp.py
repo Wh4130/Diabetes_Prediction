@@ -81,7 +81,7 @@ Your BMI is {bmi}
 #----------------------------
 # with gzip.open("./1_machine_learning/model.pgz", "rb") as f:
 #     clf = pickle.load(f)
-clf = pickle.load(open("./1_machine_learning/rf.pkl", 'rb'))
+clf = pickle.load(open("./1_machine_learning/model.pgz", 'rb'))
 
 
 #----------------------------
