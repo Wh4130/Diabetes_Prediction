@@ -2,7 +2,7 @@
 
 📌 See the slides for this ML project through:
 1. ***diabetes_prediction_slides.pdf*** in this repository
-2. this link:  https://drive.google.com/file/d/1N1FDC8_X5NVb7IlQOKq5wGQYHsGd48E7/view?usp=drive_link
+2. this link:  https://drive.google.com/file/d/1ECohsV5A7_6FpoHGtCZK9OL2tBcPGF3X/view?usp=drive_link
 
 ### Streamlit Interactive Platform (Output) and my social media
 
