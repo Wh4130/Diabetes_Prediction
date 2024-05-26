@@ -68,12 +68,6 @@ The work flow of this project is as follow:
 
   - too many binary features
 
-- Issues faced when I was trying to deploy my output:
-
-  - Due to the lack of front-end and back-end knowledge, I did not know well about how to deploy and design the UI through HTML, CSS, and Javascript, and how to deploy the project to the internet.
-
-  - Ensemble based models (Random Forest, GBDT) seem not compatible to the application deployment platform such as ***GCP***, ***Heroku***, and ***Streamlit***
-
 - Questions that I started thinking after this project:
 
   - If there are multiple feature-selection methods and their outcomes differ, how should I select features for the final model.
