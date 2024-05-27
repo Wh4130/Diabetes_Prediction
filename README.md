@@ -1,16 +1,16 @@
 # Diabetes Prediction Machine Learning Project
 
-📌 See the slides for this ML project through:
-1. ***diabetes_prediction_slides.pdf*** in this repository
-2. this link:  https://drive.google.com/file/d/1ECohsV5A7_6FpoHGtCZK9OL2tBcPGF3X/view?usp=drive_link
-
 ### Streamlit Interactive Platform (Output) and my social media
 
-📍 Test the probability of having diabetes: https://diabetesdetection-2e2nvdfhxvzucsbd3kvrfw.streamlit.app/
+📍 Test the probability of having diabetes: https://diabetesprediction-c9v4wbza6kodzyhpq7nxoj.streamlit.app/
 
 📍 Visit my Linked in: https://www.linkedin.com/in/chun-huang-lin-960552262
 
 📍 Visit my instagram account for Japanese Education: @haruki_japanese_
+
+### See the slides for this ML project through:
+1. ***diabetes_prediction_slides.pdf*** in this repository
+2. this link:  https://drive.google.com/file/d/1czklhHIwKAPkiBQjz5aIMgKSB8gcNWM0/view?usp=drive_link
 
 ### Motivation
 
